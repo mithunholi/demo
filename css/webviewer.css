@@ -1,0 +1,20 @@
+h1 {
+    text-align: center
+}
+
+table {
+    margin:auto
+}
+
+.dataTables_filter {
+    text-align: center;
+    margin:10px
+}
+
+body {
+    font-family: "Actor"
+}
+
+td {
+    vertical-align: top
+}

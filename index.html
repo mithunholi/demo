@@ -1,0 +1,30 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="utf-8">
+  <title>KIKO Webviewer</title>
+    <!--<link rel="stylesheet" type="text/css" href="css/datatables.min.css"/>-->
+    <!--Pure Tables CSS Stylesheet-->
+    <link rel="stylesheet" type="text/css" href="css/tables.css"/>
+    <link rel="stylesheet" type="text/css" href="css/webviewer.css"/>
+    <script type="text/javascript" src="js/mqttws31-min.js"></script>    
+    <script type="text/javascript" src="js/datatables.min.js"></script>
+    <script type="text/javascript" src="js/webviewer.js"></script>
+</head>
+<body>
+<!--<button onclick="client.connect(options);">Reconnect</button>
+<button onclick="subscribe();">Subscribe</button>-->
+<table>
+  <tr>
+    <td>
+      <h1>Objects</h1>
+      <table id="object_table" class="pure-table pure-table-striped"></table>
+    </td><td>
+      <h1>Actions</h1>
+      <table id="action_table" class="pure-table pure-table-striped"></table>
+    </td>
+  </tr>
+</table>
+<div id="messages"></div>
+</body>
+</html>
